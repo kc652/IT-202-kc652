@@ -35,7 +35,7 @@ if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm
 
 
     $email = se($_POST, "email", "", false);
-     $usernamee = se($_POST, "username", "", false);
+     $username = se($_POST, "username", "", false);
     $password = se($_POST, "password", "", false);
     $confirm = se(
         $_POST,
